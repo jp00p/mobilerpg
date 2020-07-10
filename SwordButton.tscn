@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Button.tscn" type="PackedScene" id=1]
+[ext_resource path="res://SwordButton.gd" type="Script" id=2]
+
+[node name="Button" instance=ExtResource( 1 )]
+text = "Sword"
+script = ExtResource( 2 )
+
+[node name="HoverInfo" parent="." index="0"]
+description = "Deal some damage"
